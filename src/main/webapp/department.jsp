@@ -43,8 +43,8 @@
                 <tbody>
                     <c:forEach items="${departmentList}" var="department">
                         <tr>
-                            <td>${department.departmentName}</td>
-                            <td>
+                            <td class="col-6">${department.departmentName}</td>
+                            <td class="col-6">
                                 <a href="DepartmentController?action=edit&departmentId=${department.departmentId}" class="link-success">Edit</a>
                                 &nbsp;|&nbsp;
                                 <a href="DepartmentController?action=delete&departmentId=${department.departmentId}" class="link-danger">Delete</a>
