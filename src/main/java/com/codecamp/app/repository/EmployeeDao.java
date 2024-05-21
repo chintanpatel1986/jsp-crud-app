@@ -122,6 +122,7 @@ public class EmployeeDao {
                 pstmt.setString(8, employee.getUserName());
                 pstmt.setString(9, employee.getPassword());
                 pstmt.setInt(10, employee.getDepartmentId());
+                pstmt.setInt(11, employee.getEmployeeId());
                 int rowsAffected = pstmt.executeUpdate();
                 if (rowsAffected > 0) {
                     result = true;

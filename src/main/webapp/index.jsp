@@ -16,6 +16,8 @@
 <body>
 <div class="container mt-5">
     <a href="DepartmentController?action=insert" class="link-primary fs-4">Department</a>
+    &nbsp;|&nbsp;
+    <a href="EmployeeController?action=insert" class="link-primary fs-4">Employee</a>
 </div>
 </body>
 </html>
