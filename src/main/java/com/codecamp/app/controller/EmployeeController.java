@@ -73,6 +73,7 @@ public class EmployeeController extends HttpServlet {
         employee.setBirthDate(birthDate);
         employee.setUserName(req.getParameter("userName"));
         employee.setPassword(req.getParameter("password"));
+        employee.setDepartmentId(Integer.parseInt(req.getParameter("departmentId")));
 
         String employeeId = req.getParameter("employeeId");
 
